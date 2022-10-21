@@ -1,0 +1,276 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    
+}
+
+.header-img img{
+    width: 64px;
+    height: 16px;
+    margin: 26px 0 0 155px;
+}
+.header-right{
+    padding: 23px 0 0 735px;
+    font-size: 19px;
+    
+}
+.header-text{
+    padding-right: 60px;
+    font-weight: 2px;
+    cursor: pointer;
+    
+}
+.ceramics-img img{
+    width: 100%;
+    height: 650px;
+}
+.ceramics-img{
+    position: absolute;
+}
+.ceramics-text{
+margin: 0 0 0 0;
+padding: 150px 0 0 280px;
+    position: relative;
+    color: white;
+}
+.handmade{
+    font-size: 100px;
+    font-weight: 50px;
+}
+.clay-ceramics{
+    padding: 0 0 50px 290px;
+    font-size: 22px;
+    margin-top: -25px;
+}
+.shopnow{
+    margin: -126px 0 100px 383px;
+width: 171px;
+height: 67px;
+font-size: 18px;
+color: rgb(112, 40, 40);
+cursor: pointer;
+}
+.bestseller{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    color: rgb(35, 30, 75);
+    margin-top: -24px;
+    padding: 140px 0 0 570px;
+    font-size: 50px;
+}
+.our-bestseller{
+margin-right: 40px; 
+letter-spacing: 7px;  
+
+}
+.product-img{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: white;
+}
+.product-img img{
+    width: 250px;
+    height: 300px;
+    border: 25px solid white;
+}
+.products-text{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    color: rgb(35, 30, 75);
+    font-size: 23px;
+}
+.candy{
+    margin-left: 127px;
+}
+.drop{
+    margin-left: 210px;
+}
+.wave{
+    margin-left: 235px;
+}
+.sun{
+        margin-left: 256px;
+}
+.products-buy{
+    margin: 139px 97px 0 693px;
+    width: 155px;
+    height: 61px;
+    font-size: 15px;
+    color: rgb(35, 30, 75);
+    cursor: pointer;
+    background-color: white;
+}.decor-img img{
+    width: 100%;
+}
+.decor-img{
+    position: absolute;
+}
+.decor-text{
+    position: relative;
+}
+.home-decor{
+padding: 227px 0 0 350px;
+color: white;
+}
+.fav-decor{
+    padding: 0 0 0 610px;
+    color: white;
+    margin-top: -24px;
+}
+.shop-decor{
+    margin: 20px 0 0 646px;
+}
+.mina-con{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-top: 364px;
+    
+}
+.about-mina img{
+    margin-left: 155px;
+    
+}
+.sustainability img{
+    padding-left: 20px;
+}
+.about-text{
+    margin-left: 158px;
+}
+.brand{
+    margin-left: 157px;
+}
+.learn-1{
+    margin-left: 158px;
+    width: 120px;
+    height: 40px;
+    border-radius: 0;
+    border-color:rgb(35, 30, 75);
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+    opacity: .8;
+}
+.learn-1:hover{
+    background-color: rgba(255, 140, 0, 0.21);
+    opacity: 1;
+}
+.sus-par{
+    margin-left: 29px;
+}
+.sus-text{
+    margin-left: 28px;
+}
+.learn-2{
+    margin-left: 28px;
+}
+.signup-img img{
+    width: 100%;
+}
+.signup{
+    overflow-x: hidden;
+}
+.signup-img{
+    position: absolute;
+}
+.signup-text{
+    position: relative;
+}
+.newl{
+    margin: 150px 0 0 374px;
+    font-size: 70px;
+    color: white;
+}
+.text-mail{
+    margin: 76px 0 0 557px;
+    width: 420px;
+    height: 40px;
+    background: #ffffff6e;
+    border-color: #00000000;
+    
+}
+.learn-3{
+    margin: 26px 50px 0 695px;
+    width: 130px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.46);
+    border: transparent;
+}
+.learn-3:hover{
+    background-color: rgb(254, 254, 254);
+}
+.learn-3:active{
+    background-color: black;
+    color: white;
+}
+.instagram{
+    width: 100%;
+height: 150px;
+}
+.insta-text{
+    margin-top: 180px;
+    margin-left: 505px;
+    color:rgb(0, 0, 0) ;
+    font-size: 50px;
+}
+.ad-img{
+    padding-left: 160px;
+    }
+    
+    .insta-link{
+        width: 100%;
+        height: 115px;
+        padding-top: 70px;
+
+    }
+    .link-in{
+        margin-left: 658px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .footer{
+        width: 100%;
+        height: 181px;
+        background-color: rgb(107 107 107 / 5%);
+        position: absolute;
+    }
+    .footer img{
+margin-top: 40px;
+    margin-left: 150px;
+    }
+    .payments{
+        cursor: pointer;
+        margin-left: 691px;
+        padding-right: 100px
+    }
+    .return{
+        padding-right: 100px;
+        cursor: pointer;
+    }
+    .footer-logo{
+        position: relative;
+       
+    }
+    .footer-logos img{
+        width: 153px;
+        height: 42px;
+        margin: 80px 0 0 115px;
+    }
+    .contact{
+        cursor: pointer;
+    }
